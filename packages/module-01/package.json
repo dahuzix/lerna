@@ -4,7 +4,7 @@
   "deployVerion": "5",
   "description": "uf3.0前端框架",
   "author": "hundsun",
-  "private": true,
+  "private": false,
   "main": "index.js",
   "scripts": {
     "dev": "cross-env mode=development webpack-dev-server --progress --config config/webpack.config.js",

@@ -1,10 +1,10 @@
 {
   "name": "platform-01",
   "version": "0.0.3",
-  "deployVerion": "5",
   "description": "uf3.0前端框架",
-  "author": "hundsun",
+  "author": "socrates",
   "private": false,
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env mode=development webpack-dev-server --progress --config config/webpack.config.js",
@@ -35,5 +35,6 @@
   },
   "dependencies": {
     "moment": "^2.24.0"
-  }
+  },
+  "gitHead": "f67737ce12c793e74430cface8cfa2cac0d08982"
 }

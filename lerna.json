@@ -3,5 +3,10 @@
     "packages/*"
   ],
   "version": "0.0.14",
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "registry": "http://nexus3.hundsun.com:6060/repository/rd_center/"
+    }
+  }
 }

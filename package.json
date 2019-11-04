@@ -3,5 +3,8 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.18.3"
+  },
+  "dependencies": {
+    "platform-01": "0.0.11"
   }
 }

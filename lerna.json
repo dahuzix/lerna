@@ -3,7 +3,7 @@
     "packages/*"
   ],
   "version": "independent",
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "command": {
     "publish": {
       "registry": "http://nexus3.hundsun.com:6060/repository/rd_center/"

@@ -1,0 +1,46 @@
+{
+  "name": "@union/cli",
+  "version": "1.1.1",
+  "description": "一个前端脚手架",
+  "keywords": [
+    "一个前端脚手架"
+  ],
+  "author": "贾亦品",
+  "homepage": "https://github.com/dahuzix/union#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "union": "bin/union.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "cmd"
+  ],
+  "publishConfig": {
+    "registry": "http://nexus3.hundsun.com:6060/repository/rd_center/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahuzix/union.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dahuzix/union/issues"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "compressing": "^1.4.0",
+    "inquirer": "^3.3.0",
+    "ora": "^1.4.0",
+    "shelljs": "^0.8.3",
+    "urllib": "^2.34.1",
+    "yargs": "^14.2.0"
+  },
+  "gitHead": "7996ff4d2dfaf35b8415f70024ea427aad03b259"
+}
